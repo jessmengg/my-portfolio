@@ -84,14 +84,10 @@ body, html {
     font-size: 20px;
     font-family: 'Fuzzy Bubbles', cursive;
     color: #333;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.3s ease;
     pointer-events: none;
     z-index: 5;
-}
-
-.cloud:hover .cloud-label {
-    opacity: 1;
 }
 
 .cloud:hover .cloud-wrapper {
@@ -118,7 +114,7 @@ body, html {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
 }
-
+ 
 @media (max-width: 768px) {
     .cloud img, .cloud-deco img {
         width: 25vw;
