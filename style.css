@@ -315,6 +315,8 @@ body, html {
 .project-card video {
     width: 100%;
     height: auto;
+    max-height: 250px;
+    object-fit: cover;
     display: block;
     border-radius: 10px;
 }
